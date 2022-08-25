@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;1,200&family=PT+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+
+body {
+    font-family: Barlow, sans-serif;
+    font-weight: 400;
+    background-color: black;
+
+}
+
+h1 {
+    font-family: Barlow, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: white;
+
+}
+
+h2 {
+    font-family: Barlow, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: white;
+
+}
+
+#logo {
+    float: left;
+    font-size: 280%;
+    margin-left: 30px;
+    clear: both;
+}
+
+#menu,
+#logo {
+    line-height: 75px;
+
+
+}
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+    color: rgb(243, 244, 244);
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    padding: 10px 15px;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+    color: #fff;
+    background-color: #9ca7a3;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 5px rgb(162, 155, 155);
+}
+
+.active {
+    border-bottom: 1px solid rgb(245, 237, 237);
+}
+
+/*background image */
+
+#background-outer {
+    overflow: hidden;
+    height: 600px;
+    width: 100%;
+}
+
+
+/* text box for background-image */
+
+#cover-text,
+#cover-text h2 {
+    color: rgb(249, 249, 249);
+
+}
+
+#background {
+    height: 500px;
+    width: 100%;
+    background: url(../images/cover.jpg) no-repeat center;
+    background-size: cover;
+
+    /* effects for the background */
+    animation-name: hero-zoom;
+    animation-duration: 20s;
+    animation-fill-mode: forwards;
+}
+
+/* creates the level of zoom for hero image */
+@keyframes hero-zoom {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.5);
+    }
+}
+
+#cover-text {
+    font-size: 130%;
+    font-family: Barlow, sans-serif;
+    text-transform: none;
+    letter-spacing: 4px;
+
+    width: 300px;
+    height: 200px;
+
+    padding-top: 10px;
+    padding-left: 10px;
+
+    background-color: rgba(0, 0, 0, 0.9);
+
+    bottom: 50px;
+    right: 150px;
+
+    position: absolute;
+}
+/*Reasons Description of the website */ 
+.reasons {
+    padding: 5% 0;
+    text-align: center;
+    color: white;
+  }
+
+  .reasons h2{
+    font-size: 1.6rem;
+color: white;
+background-color: #e27100;
+border-radius: 50%;
+
+
+  }
+  .reasons p {
+    display: block;
+  }
+
+  .reasons-image {
+width: 33%;
+height: 30%;
+  }
+
+  @media (min-width: 40rem) {
+    .reasons {
+      flex-direction: row;
+    }
+  }
+  
+  .reasons {
+    flex-basis: 30%;
+  }
+  
