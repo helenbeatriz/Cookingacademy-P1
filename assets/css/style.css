@@ -97,7 +97,7 @@ h2 {
 #background {
     height: 500px;
     width: 100%;
-    background: url(../images/cover.jpg) no-repeat center;
+    background: url(/assets/Images/cover.jpg) no-repeat center;
     background-size: cover;
 
     /* effects for the background */
@@ -137,16 +137,30 @@ h2 {
     position: absolute;
 }
 /*Reasons Description of the website */ 
+#reasons {
+    background-color: rgba(0, 0, 0, 0.9);
+    font-size:large;
+    
+
+}
 .reasons {
     padding: 5% 0;
     text-align: center;
     color: white;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+    width: 50%;
+
+    
   }
 
   .reasons h2{
     font-size: 1.6rem;
-color: white;
-background-color: #e27100;
+color: rgb(255, 255, 255);
+background-color: #ff9100;
+justify-content: center;
+text-align: center;
 border-radius: 50%;
 
 
@@ -164,9 +178,100 @@ height: 30%;
     .reasons {
       flex-direction: row;
     }
-  }
-  
   .reasons {
     flex-basis: 30%;
   }
-  
+  }
+  @media (max-width: 600px) {
+
+    div.reasons {
+        flex-direction: column;
+
+    } 
+}
+
+/*Teachers */
+.teamgreeting{
+    clear: both;
+    text-align: center;
+    font-size: large;
+    background-color: #ff9100;
+    border-radius: 50%;
+    
+}
+
+
+#chefs,
+.chef-1,
+.chef-2,
+.chef-3,
+.chef-4 {
+    clear: both;
+    padding: 15px;
+    margin: 0;
+    color: #fafafa;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    column-count: 4;
+}
+
+
+
+.chefs-image {
+    clear: both;
+    height: 220px;
+    width: 220px;
+    border: 2px solid #ffaa00;
+    border-radius: 50%;
+    background-color: rgb(0, 0, 0);
+    
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+   
+
+}
+
+.chefs-image figcaption {
+
+    text-align: center;
+
+}
+
+.chefs-image:hover {
+    transform: scale(1.5);
+}
+
+
+
+/*footer */
+footer {
+    text-align: center;
+}
+
+.copyright {
+    color: whitesmoke;
+}
+
+#linha-vertical {
+    height: 200px;
+    border-right: 1px solid red;
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks>li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #3a3a3a;
+}
