@@ -138,37 +138,18 @@ h2 {
 }
 /*Reasons Description of the website */ 
 #reasons {
-    background-color: rgba(0, 0, 0, 0.9);
-    font-size:large;
-    
-
-}
-.reasons {
-    padding: 5% 0;
-    text-align: center;
-    color: white;
+    display: flex;
     justify-content: center;
-    margin-right: auto;
-    margin-left: auto;
-    width: 50%;
-
-    
-  }
-
-  .reasons h2{
-    font-size: 1.6rem;
-color: rgb(255, 255, 255);
-background-color: #ff9100;
-justify-content: center;
-text-align: center;
-border-radius: 50%;
-
-
-  }
-  .reasons p {
-    display: block;
-  }
-
+    margin-bottom: 15%;
+    margin-top: 10%;
+}
+.reasons p {
+    color: white;
+}
+.reasons h2 {
+    background-color: #e27100;
+    margin: 2px;
+}
   .reasons-image {
 width: 33%;
 height: 30%;
