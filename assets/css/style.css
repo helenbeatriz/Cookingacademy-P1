@@ -197,7 +197,15 @@ height: 30%;
     font-size: large;
     background-color: #ff9100;
     border-radius: 50%;
+
     
+}
+
+.chef-1, .chef-2, .chef-3, .chef-4 {
+
+    display: inline-block;
+    width: 33%;
+
 }
 
 
@@ -208,17 +216,11 @@ height: 30%;
     border: 2px solid #ffaa00;
     border-radius: 50%;
     background-color: rgb(0, 0, 0);
-    justify-content: space-between;
-    display: flex;
     padding: 10px;
+    margin-top: 10%;
    
-
-}
-@media (max-width: 600px) {
-    .chefs-image {
-display: flex;
 } 
-}
+
 
 figcaption {
   
@@ -226,16 +228,27 @@ figcaption {
     font-size: 15px;
     line-height: 1.5;
     color: white;
-  
-    width: 40%;
+    width: 50%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10%;
 }
 
 .chefs-image:hover {
     transform: scale(1.5);
 }
 
-
-
+@media screen and (max-width: 500px) {
+  
+    .chef-1, .chef-2, .chef-3, .chef-4 {
+        width: 70%;
+    }
+    figcaption {
+        width: 70%;
+    }
+    
+    
+}
 
 
 /*footer */
@@ -269,4 +282,84 @@ footer {
 
 .copyright {
     color: white;
+}
+/*form */
+
+form {
+    clear: both;
+    background-image: url('/assets/Images/chefplatingwithsmoke.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    background-color: #fff;
+    padding: 3rem;
+
+}
+
+
+.contact-form {
+    flex-direction: column;
+    border: none;
+    border-radius: 50px;
+    padding: 20px;
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: bold;
+    border: solid 3px #e27100;
+    width: 70%;
+
+
+}
+
+input,
+text {
+    margin: 0.6rem 0;
+    padding: 0.8rem 1.2rem;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px #0000001c;
+    font-size: 0.8rem;
+
+}
+
+
+.submit-button button {
+    width: 100%;
+    margin-top: 2.5rem;
+    border: none;
+    background-color: #ffb909;
+    padding: 0.62rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submit-button button:hover {
+    background-color: #fffffff1;
+}
+
+
+.submit-button:hover {
+    background-color: #ffb909;
+    color: #ffffff;
+}
+
+      
+#comment {
+    width: 60%;	
+    height: 80%;
+    margin-top: 20px;
+}
+
+
+
+/* Contact page textblock media query for mobile wider than 375px */
+@media only screen and (max-width: 1064px) {
+    .contact-form {
+        width: 250px;
+        display: flex;
+        flex-direction: column;
+    }
 }
