@@ -2,7 +2,7 @@
 Cooking Academy is a website destined to a culinary school that facilitates user who have interest to get in touch with the company. 
 Providing information about teachers, pictures of dishes made through the course and etc.  
 
-![Responsice Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
+Still need to add it here *****![Responsice Mockup]("")
 
 ## Features 
 
@@ -33,18 +33,18 @@ In this section, you should go over the different parts of your project, and des
   - The landing includes Cooking Academy logo that is relevant for the business related to cooking and also some information about where its located and thats a school that has good chefs teaching.  
   - Catches the suer attention due to the vibrant color that focus on a very vivid yellow. 
 
-![Landing Page](/assets/Images/main.png)
+![Landing Page](/assets/Images/covermain.png)
 
 - __Main Section on First Page__
 
  - User sees some information about the page and how important cooking is even for daily tasks and also for recreative reasons. 
 ![Club Ethos](still need to format and take sc ) 
 
-- __Meetup Times section__
+- __Chefs section__
 
   - This section shows some pictures of people cooking and even kids doing it to incentivize the user that no matter what age you are, you can cook ! 
 
-![Meetup Times](need to find the right pictures for it and format ) 
+![Chefs](****need to find the right pictures for it and format ) 
 
 - __The Footer__ 
 
@@ -71,8 +71,9 @@ In addition, you may also use this section to discuss plans for additional featu
 ### Features Left to Implement
 
 - Another feature idea
+- User reviews and map on first page.
 
-## Testing 
+## Testing *** havent done it ****
 
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
@@ -104,8 +105,7 @@ This section should describe the process you went through to deploy the project 
   - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
 The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html 
-
-
+havent done till here ------
 ## Credits 
 
 All the pictures/media are owned by Pexels.
@@ -123,6 +123,8 @@ I did the whole website based on the things I learnt through the course, watchin
 ## Design
 
 ### Wireframes
+
+This is how I was planning my website to look like. 
 <br>
 Home page
 <br><br>
