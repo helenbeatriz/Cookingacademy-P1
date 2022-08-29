@@ -140,7 +140,7 @@ h2 {
 #reasons {
     display: flex;
     justify-content: center;
-    margin-bottom: 15%;
+    margin-bottom: 5%;
     margin-top: 10%;
 }
 .reasons p {
@@ -169,6 +169,18 @@ height: 30%;
         flex-direction: column;
 
     } 
+}
+.signupbutton {
+    background-color: #ff9100;
+    text-align: center;
+    width: 100%;
+    justify-content: center;
+    border-radius: 5px;
+    display: flex;
+    margin-bottom: 10%;
+    font-size: 30px;
+    color: #fff;
+
 }
 
 /*Teachers */
