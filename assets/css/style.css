@@ -136,40 +136,47 @@ h2 {
 
     position: absolute;
 }
-/*Reasons Description of the website */ 
+
+/*Reasons Description of the website */
 #reasons {
     display: flex;
     justify-content: center;
     margin-bottom: 5%;
     margin-top: 10%;
 }
+
 .reasons p {
     color: white;
 }
+
 .reasons h2 {
     background-color: #e27100;
     margin: 2px;
 }
-  .reasons-image {
-width: 33%;
-height: 30%;
-  }
 
-  @media (min-width: 40rem) {
+.reasons-image {
+    width: 33%;
+    height: 30%;
+}
+
+@media (min-width: 40rem) {
     .reasons {
-      flex-direction: row;
+        flex-direction: row;
     }
-  .reasons {
-    flex-basis: 30%;
-  }
-  }
-  @media (max-width: 600px) {
+
+    .reasons {
+        flex-basis: 30%;
+    }
+}
+
+@media (max-width: 600px) {
 
     div.reasons {
         flex-direction: column;
 
-    } 
+    }
 }
+
 .signupbutton {
     background-color: #ff9100;
     text-align: center;
@@ -184,17 +191,20 @@ height: 30%;
 }
 
 /*Teachers */
-.teamgreeting{
+.teamgreeting {
     clear: both;
     text-align: center;
     font-size: large;
     background-color: #ff9100;
     border-radius: 50%;
 
-    
+
 }
 
-.chef-1, .chef-2, .chef-3, .chef-4 {
+.chef-1,
+.chef-2,
+.chef-3,
+.chef-4 {
 
     display: inline-block;
     width: 33%;
@@ -211,12 +221,12 @@ height: 30%;
     background-color: rgb(0, 0, 0);
     padding: 10px;
     margin-top: 10%;
-   
-} 
+
+}
 
 
 figcaption {
-  
+
     display: inline-block;
     font-size: 15px;
     line-height: 1.5;
@@ -232,15 +242,19 @@ figcaption {
 }
 
 @media screen and (max-width: 500px) {
-  
-    .chef-1, .chef-2, .chef-3, .chef-4 {
+
+    .chef-1,
+    .chef-2,
+    .chef-3,
+    .chef-4 {
         width: 70%;
     }
+
     figcaption {
         width: 70%;
     }
-    
-    
+
+
 }
 
 
@@ -276,6 +290,7 @@ footer {
 .copyright {
     color: white;
 }
+
 /*form */
 
 form {
@@ -339,9 +354,9 @@ text {
     color: #ffffff;
 }
 
-      
+
 #comment {
-    width: 60%;	
+    width: 60%;
     height: 80%;
     margin-top: 20px;
 }
@@ -419,4 +434,5 @@ text {
     div.reasons {
         flex-direction: column;
 
-    } }
+    }
+}
