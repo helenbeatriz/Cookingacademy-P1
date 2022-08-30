@@ -2,7 +2,21 @@
 Cooking Academy is a website destined to a culinary school that facilitates user who have interest to get in touch with the company. 
 Providing information about teachers, pictures of dishes made through the course and etc.  
 
-Still need to add it here *****![Responsice Mockup]("")
+[(assets/Images/mocup.png)]
+## Design
+
+### Wireframes
+
+This is how I was planning my website to look like. 
+<br>
+Home page
+<br><br>
+
+![Home Page large screen](/assets/Images/bigscreen.png)
+
+![Home Page small screen](/assets/Images/phone.png)
+<br><br>
+
 
 ## Features 
 
@@ -24,9 +38,7 @@ In this section, you should go over the different parts of your project, and des
         <li> Gallery - gallery with pictures related to the course. </li>
 </ul>
  
-
 ![Nav Bar](/assets/Images/navbar.png) 
-
 
 - __Hero Image and Logo__
 
@@ -48,7 +60,8 @@ In this section, you should go over the different parts of your project, and des
 
 - __The Footer__ 
 
-  - The footer contains social feature that link the page to Instagram, Facebook, Twitter
+  - The footer contains social feature that link the page to Instagram, Facebook, Twitter.
+  - This will allow the users to follow Cooking Classes on social media to keep up to date with things that might not be on our website. 
 
 ![Footer](/assets/Images/footer.png)
 
@@ -83,6 +96,8 @@ You should also mention in this section any interesting bugs or problems you dis
 
 If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
+- My website was taking very long time to load so I had to convert and compress all my photos in order to make it work. 
+- I wasn able to align my gallery pictures so I learnt how to sue display boxes and made it work on mobiles as well. 
 
 ### Validator Testing 
 
@@ -118,19 +133,3 @@ I did the whole website based on the things I learnt through the course, watchin
 ### Media
 
 - All the pictures/media are owned by Pexels. https://www.pexels.com/
-
-
-## Design
-
-### Wireframes
-
-This is how I was planning my website to look like. 
-<br>
-Home page
-<br><br>
-
-![Home Page large screen](/assets/Images/bigscreen.png)
-
-![Home Page small screen](/assets/Images/phone.png)
-<br><br>
-
