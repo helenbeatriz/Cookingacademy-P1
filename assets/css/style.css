@@ -97,7 +97,7 @@ h2 {
 #background {
     height: 500px;
     width: 100%;
-    background: url(/assets/Images/cover.jpg) no-repeat center;
+    background: url(/assets/Images/cover.webp) no-repeat center;
     background-size: cover;
 
     /* effects for the background */
@@ -138,43 +138,45 @@ h2 {
 }
 
 /*Reasons Description of the website */
+
+
 #reasons {
+    background-size: cover;
+}
+.reasons {
+    background-color: rgba(44, 52, 60,);
+    color: rgb(255, 255, 255);
+    padding: 4rem;
+    text-align: center;
     display: flex;
-    justify-content: center;
-    margin-bottom: 5%;
-    margin-top: 10%;
+    align-content: center;
+    justify-content:center;
 }
 
-.reasons p {
-    color: white;
+.reasonscontent {
+    max-width: 60%;
+    background-color: rgba(0, 0, 0, 0.9);
+    border: 2px solid rgb(255, 153, 0);
+    padding: 2rem;
+    align-self: center;
+    border-radius: 30%;
 }
+.reasonstojoin h2 {
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+.reasonsbig {
+    font-weight: bold;
+     display: block;
+     margin-top: 2rem;
+     text-transform:uppercase;
+}
+.reasonsbutton {
 
-.reasons h2 {
+    align-self: center;
     background-color: #e27100;
-    margin: 2px;
-}
-
-.reasons-image {
-    width: 33%;
-    height: 30%;
-}
-
-@media (min-width: 40rem) {
-    .reasons {
-        flex-direction: row;
-    }
-
-    .reasons {
-        flex-basis: 30%;
-    }
-}
-
-@media (max-width: 600px) {
-
-    div.reasons {
-        flex-direction: column;
-
-    }
+    font-weight: bold;
+    flex-direction: column;
 }
 
 .signupbutton {
@@ -185,20 +187,37 @@ h2 {
     border-radius: 5px;
     display: flex;
     margin-bottom: 10%;
-    font-size: 30px;
     color: #fff;
+    font-size: 40px;
+    letter-spacing: 4px;
+    color: rgb(243, 244, 244);
+    text-decoration: none;
+    text-transform: capitalize;
 
 }
 
+.signupbutton:hover {
+padding: 10px 15px;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+    color: #fff;
+    background-color: #ec6a00;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 5px rgb(162, 155, 155);
+}
 /*Teachers */
 .teamgreeting {
     clear: both;
     text-align: center;
-    font-size: large;
-    background-color: #ff9100;
-    border-radius: 50%;
-
-
+    font-size: large;  
+    color: #fff;
+    border: 2px solid #ec6a00;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10%;
 }
 
 .chef-1,
@@ -238,26 +257,8 @@ figcaption {
 }
 
 .chefs-image:hover {
-    transform: scale(1.5);
+    transform: scale(1.1);
 }
-
-@media screen and (max-width: 500px) {
-
-    .chef-1,
-    .chef-2,
-    .chef-3,
-    .chef-4 {
-        width: 70%;
-    }
-
-    figcaption {
-        width: 70%;
-    }
-
-
-}
-
-
 /*footer */
 footer {
     text-align: center;
@@ -363,14 +364,6 @@ text {
 
 
 
-/* Contact page textblock media query for mobile wider than 375px */
-@media only screen and (max-width: 1064px) {
-    .contact-form {
-        width: 250px;
-        display: flex;
-        flex-direction: column;
-    }
-}
 
 /*images for gallery*/
 
@@ -387,9 +380,27 @@ text {
 
 }
 
+/* Contact page textblock media query for mobile wider than 375px */
+@media only screen and (max-width: 1064px) {
+    .contact-form {
+        width: 250px;
+        display: flex;
+        flex-direction: column;
+    }
+
+.reasonscontent {
+    margin-top: 45%;
+    min-width: 80vw;
+}
+.reasons button {
+    min-width: 40%;
+}
+}
+
 @media (max-width: 800px) {
     #photos {
         flex-direction: column;
+        display: flex;
     }
 }
 
@@ -429,10 +440,37 @@ text {
     }
 }
 
-@media (max-width: 600px) {
 
-    div.reasons {
-        flex-direction: column;
+@media screen and (max-width: 670px) {
 
+    .chef-1,
+    .chef-2,
+    .chef-3,
+    .chef-4 {
+        width: 70%;
     }
+    .chefs-image {
+        display: flex;
+    }
+
+    figcaption {
+        width: 70%;
+    }
+}
+.reasons {
+    min-width: 90vw;
+    padding: 2%;
+    margin-top: 14vh;
+    padding: 10%;
+}
+.reasonscontent h2 {
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+.reasonscontent br {
+    display: block;
+    font-size: 1.2rem;
+}
+.reasons button {
+    max-width: 95vw;
 }
