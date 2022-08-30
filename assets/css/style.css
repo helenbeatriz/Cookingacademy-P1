@@ -5,23 +5,17 @@
     padding: 0;
     border: none;
 }
-
-
 body {
     font-family: Barlow, sans-serif;
     font-weight: 400;
     background-color: black;
-
 }
-
 h1 {
     font-family: Barlow, sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
     color: white;
-
 }
-
 h2 {
     font-family: Barlow, sans-serif;
     text-transform: uppercase;
@@ -391,9 +385,11 @@ text {
 .reasonscontent {
     margin-top: 45%;
     min-width: 80vw;
+    flex-direction: column;
 }
 .reasons button {
     min-width: 40%;
+    flex-direction: column;
 }
 }
 
@@ -410,6 +406,7 @@ text {
         width: 65%;
         height: 1200px;
         margin: 0 auto;
+        flex-direction: column;
     }
 
     #welcome {
@@ -451,21 +448,24 @@ text {
     }
     .chefs-image {
         display: flex;
+        flex-direction: column;
     }
 
     figcaption {
         width: 70%;
     }
-}
+
 .reasons {
     min-width: 90vw;
     padding: 2%;
     margin-top: 14vh;
     padding: 10%;
+    flex-direction: column;
 }
 .reasonscontent h2 {
     font-size: 1.1rem;
     font-weight: 400;
+    flex-direction: column;
 }
 .reasonscontent br {
     display: block;
@@ -473,4 +473,8 @@ text {
 }
 .reasons button {
     max-width: 95vw;
+}
+.teamgreeting {
+    width: auto;
+}
 }
