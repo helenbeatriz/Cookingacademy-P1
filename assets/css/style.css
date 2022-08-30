@@ -439,7 +439,10 @@ text {
 
 
 @media screen and (max-width: 670px) {
-
+    #cover-text {
+        bottom: 20px;
+        right: 0;
+    }
     .chef-1,
     .chef-2,
     .chef-3,
@@ -458,9 +461,10 @@ text {
 .reasons {
     min-width: 90vw;
     padding: 2%;
-    margin-top: 14vh;
+    margin-top: 0;
     padding: 10%;
     flex-direction: column;
+
 }
 .reasonscontent h2 {
     font-size: 1.1rem;
