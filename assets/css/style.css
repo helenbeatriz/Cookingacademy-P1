@@ -146,7 +146,6 @@ h2 {
     align-content: center;
     justify-content:center;
 }
-
 .reasonscontent {
     max-width: 60%;
     background-color: rgba(0, 0, 0, 0.9);
@@ -154,10 +153,6 @@ h2 {
     padding: 2rem;
     align-self: center;
     border-radius: 30%;
-}
-.reasonstojoin h2 {
-    font-weight: 400;
-    font-size: 1.5rem;
 }
 .reasonsbig {
     font-weight: bold;
@@ -172,7 +167,6 @@ h2 {
     font-weight: bold;
     flex-direction: column;
 }
-
 .signupbutton {
     background-color: #ff9100;
     text-align: center;
@@ -187,9 +181,7 @@ h2 {
     color: rgb(243, 244, 244);
     text-decoration: none;
     text-transform: capitalize;
-
 }
-
 .signupbutton:hover {
 padding: 10px 15px;
     font-size: 20px;
@@ -213,18 +205,14 @@ padding: 10px 15px;
     margin-right: auto;
     border-radius: 10%;
 }
-
 .chef-1,
 .chef-2,
 .chef-3,
 .chef-4 {
-
     display: inline-block;
     width: 33%;
 
 }
-
-
 .chefs-image {
     clear: both;
     height: 220px;
@@ -234,12 +222,8 @@ padding: 10px 15px;
     background-color: rgb(0, 0, 0);
     padding: 10px;
     margin-top: 10%;
-
 }
-
-
 figcaption {
-
     display: inline-block;
     font-size: 15px;
     line-height: 1.5;
@@ -249,7 +233,6 @@ figcaption {
     margin-right: 10%;
     margin-bottom: 10%;
 }
-
 .chefs-image:hover {
     transform: scale(1.1);
 }
@@ -257,37 +240,29 @@ figcaption {
 footer {
     text-align: center;
 }
-
 .copyright {
     color: whitesmoke;
 }
-
 #linha-vertical {
     height: 200px;
     border-right: 1px solid red;
 }
-
 .social-networks {
     text-align: center;
 }
-
 .social-networks>li {
     display: inline;
 }
-
 .social-networks i {
     font-size: 160%;
     margin: 1%;
     padding: 5%;
     color: #3a3a3a;
 }
-
 .copyright {
     color: white;
 }
-
 /*form */
-
 form {
     clear: both;
     background-image: url('/assets/Images/chefplatingwithsmoke.png');
@@ -301,8 +276,6 @@ form {
     padding: 3rem;
 
 }
-
-
 .contact-form {
     flex-direction: column;
     border: none;
@@ -313,10 +286,7 @@ form {
     font-weight: bold;
     border: solid 3px #e27100;
     width: 70%;
-
-
 }
-
 input,
 text {
     margin: 0.6rem 0;
@@ -325,10 +295,7 @@ text {
     border-radius: 10px;
     box-shadow: 1px 1px 6px #0000001c;
     font-size: 0.8rem;
-
 }
-
-
 .submit-button button {
     width: 100%;
     margin-top: 2.5rem;
@@ -338,42 +305,28 @@ text {
     border-radius: 5px;
     cursor: pointer;
 }
-
 .submit-button button:hover {
     background-color: #fffffff1;
 }
-
-
 .submit-button:hover {
     background-color: #ffb909;
     color: #ffffff;
 }
-
-
 #comment {
     width: 60%;
     height: 80%;
     margin-top: 20px;
 }
-
-
-
-
 /*images for gallery*/
-
 #photos {
     clear: both;
     column-count: 4;
     display: inline-block;
     text-align: center;
 }
-
-
 #photos img {
     width: 80%;
-
 }
-
 /* Contact page textblock media query for mobile wider than 375px */
 @media only screen and (max-width: 1064px) {
     .contact-form {
@@ -381,7 +334,6 @@ text {
         display: flex;
         flex-direction: column;
     }
-
 .reasonscontent {
     margin-top: 45%;
     min-width: 80vw;
@@ -392,14 +344,12 @@ text {
     flex-direction: column;
 }
 }
-
 @media (max-width: 800px) {
     #photos {
         flex-direction: column;
         display: flex;
     }
 }
-
 @media screen and (max-width: 1200px) {
     #descriptionchef {
         display: flex;
@@ -408,24 +358,19 @@ text {
         margin: 0 auto;
         flex-direction: column;
     }
-
     #welcome {
         padding: 30px 0;
         margin: 0;
     }
-
     #um {
         width: 100%;
         float: left;
         padding: 0;
     }
-
-
     hr {
         display: none;
     }
 }
-
 @media screen and (max-width: 950px) {
 
     #menu {
@@ -436,8 +381,6 @@ text {
         line-height: 25px;
     }
 }
-
-
 @media screen and (max-width: 670px) {
     #cover-text {
         bottom: 20px;
@@ -448,30 +391,24 @@ text {
     .chef-3,
     .chef-4 {
         width: 70%;
-    }
-    .chefs-image {
-        display: flex;
-        flex-direction: column;
-    }
-
+        }
     figcaption {
         width: 70%;
+        display: inline;
     }
-
 .reasons {
     min-width: 90vw;
     padding: 2%;
     margin-top: 0;
     padding: 10%;
     flex-direction: column;
-
 }
 .reasonscontent h2 {
     font-size: 1.1rem;
     font-weight: 400;
     flex-direction: column;
 }
-.reasonscontent br {
+.reasonscontent p {
     display: block;
     font-size: 1.2rem;
 }
