@@ -110,7 +110,6 @@ h2 {
     background-size: cover;
 }
 .reasons {
-    background-color: rgba(44, 52, 60,);
     color: rgb(255, 255, 255);
     padding: 4rem;
     text-align: center;
@@ -239,7 +238,6 @@ form {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: left;
     background-color: #fff;
     padding: 3rem;
 }
