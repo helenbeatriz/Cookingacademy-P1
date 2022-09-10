@@ -356,10 +356,11 @@ text {
     .chef-3,
     .chef-4 {
         width: 70%;
+        display: grid;
         }
     figcaption {
         width: 70%;
-        display: inline;
+        
     }
 .reasons {
     min-width: 90vw;
