@@ -232,7 +232,7 @@ footer {
 /*form */
 form {
     clear: both;
-    background-image: url('/assets/Images/chefplatingwithsmoke.png');
+    background-image: url('assets/Images/chefplatingwithsmoke.png');
     background-size: cover;
     background-position: center;
     display: flex;
