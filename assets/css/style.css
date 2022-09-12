@@ -314,7 +314,7 @@ text {
         padding-bottom: 5px
     }
 }
-@media screen (min-width:1000px) and (max-width: 1300px) {
+@media (min-width:1000px) and (max-width: 1300px) {
     #descriptionchef {
         display: flex;
         width: 65%;
