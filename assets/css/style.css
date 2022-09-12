@@ -75,7 +75,7 @@ h2 {
 #background {
     height: 500px;
     width: 100%;
-    background: url(/assets/Images/cover.webp) no-repeat center;
+    background: url(assets/Images/cover.webp) no-repeat center;
     background-size: cover;
     /* effects for the background */
     animation-name: hero-zoom;
