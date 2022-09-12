@@ -347,7 +347,10 @@ text {
         margin-bottom: 20px;
         line-height: 25px;
     }
-}
+        #cover-text {
+           position: sticky;
+        }
+    }
 @media screen and (max-width: 670px) {
     #cover-text {
         bottom: 20px;
