@@ -43,13 +43,13 @@ In this section, you should go over the different parts of your project, and des
 - __Hero Image and Logo__
 
   - The landing includes Cooking Academy logo that is relevant for the business related to cooking and also some information about where its located and thats a school that has good chefs teaching.  
-  - Catches the suer attention due to the vibrant color that focus on a very vivid yellow. 
+  - Catches the user attention due to the vibrant color that focus on a very vivid yellow. 
 
 ![Landing Page](/assets/Images/covermain.png)
 
 - __Main Section on First Page__
 
- - User sees some information about the page and how important cooking is even for daily tasks and also for recreative reasons. 
+ - User sees some information about the page and how important cooking is even for daily tasks and also for recreative reasons to do it. 
 ![Club Ethos](still need to format and take sc ) 
 
 - __Chefs section__
@@ -63,23 +63,20 @@ In this section, you should go over the different parts of your project, and des
   - The footer contains social feature that link the page to Instagram, Facebook, Twitter.
   - This will allow the users to follow Cooking Classes on social media to keep up to date with things that might not be on our website. 
 
-![Footer](/assets/Images/footer.png)
+![Footer](assets/Images/footer.png)
 
 - __Gallery__
 
   - This section contains pictures of dishes and people cooking to show a bit of what the experience can be because cooking is colorful and so much fun !!
 
-![Gallery](/assets/Images/gallery.png)
+![Gallery](assets/Images/gallery.png)
 
 - __The Sign Up Page__
 
   - This page will allow the user to get in touch with people from Cooking Academy and start the journey of learning how to cook. 
 
-![Sign Up](/assets/Images/form.png)
+![Sign Up](assets/Images/form.png)
 
-For some/all of your features, you may choose to reference the specific project files that implement them.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
 ### Features Left to Implement
 
@@ -87,12 +84,13 @@ In addition, you may also use this section to discuss plans for additional featu
 - User reviews and map on first page.
 
 ## Testing 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+
 
 If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
 - My website was taking very long time to load so I had to convert and compress all my photos in order to make it work. 
-- I wasn able to align my gallery pictures so I learnt how to sue display boxes and made it work on mobiles as well. 
+- I wasn able to align my gallery pictures so I learnt how to sue display boxes and made it work on mobiles as well.
+- While creating and website and deploying I found out I Needesd to remove the "/" from my links cause it was causing an error while trying to open images through absolute paths. 
 
 ### Validator Testing 
 
@@ -115,7 +113,7 @@ The live link can be found here - https://helenbeatriz.github.io/Cookingacademy-
 ## Credits 
 
 All the pictures/media are owned by Pexels.
-I did the whole website based on the things I learnt through the course, watching videos on Youtube and mixing then and create my own. 
+I did the whole website based on the things I learnt through the course, watching videos on Youtube and mixing then and creating my own. 
 
 ### Content 
 
