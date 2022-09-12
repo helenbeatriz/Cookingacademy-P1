@@ -45,7 +45,7 @@ In this section, you should go over the different parts of your project, and des
   - The landing includes Cooking Academy logo that is relevant for the business related to cooking and also some information about where its located and thats a school that has good chefs teaching.  
   - Catches the user attention due to the vibrant color that focus on a very vivid yellow. 
 
-![Landing Page](/assets/images/covermain.png)
+![Landing Page](assets/images/covermain.png)
 
 - __Main Section on First Page__
 
@@ -56,7 +56,7 @@ In this section, you should go over the different parts of your project, and des
 
   - This section shows some pictures of people cooking and even kids doing it to incentivize the user that no matter what age you are, you can cook ! 
 
-![Chefs](****need to find the right pictures for it and format ) 
+![Chefs](assets/images/chefsforreadme.png) 
 
 - __The Footer__ 
 
@@ -84,10 +84,6 @@ In this section, you should go over the different parts of your project, and des
 - User reviews and map on first page.
 
 ## Testing 
-
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
-
 - My website was taking very long time to load so I had to convert and compress all my photos in order to make it work. 
 - I wasn able to align my gallery pictures so I learnt how to sue display boxes and made it work on mobiles as well.
 - While creating and website and deploying I found out I Needesd to remove the "/" from my links cause it was causing an error while trying to open images through absolute paths. 
@@ -98,18 +94,13 @@ If this section grows too long, you may want to split it off into a separate fil
   - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2F8000-helenbeatriz-p1htmlcss-z79k9ftjie2.ws-eu64.gitpod.io%2F) 
 - CSS
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2F8000-helenbeatriz-p1htmlcss-z79k9ftjie2.ws-eu64.gitpod.io%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+  - Also got good scores on lightroom. 
 
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting 
-
-- The site was developed to GitHub pages. The steps to deploy are as follows: 
-  - In the GitHub repository, navigate to the Settings tab 
-  - From the source section drop-down menu, select the Master Branch
-  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
-
 The live link can be found here - https://helenbeatriz.github.io/Cookingacademy-P1/
+
 ## Credits 
 
 All the pictures/media are owned by Pexels.
