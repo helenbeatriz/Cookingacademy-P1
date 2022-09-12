@@ -12,9 +12,9 @@ This is how I was planning my website to look like.
 Home page
 <br><br>
 
-![Home Page large screen](/assets/Images/bigscreen.png)
+![Home Page large screen](/assets/images/bigscreen.png)
 
-![Home Page small screen](/assets/Images/phone.png)
+![Home Page small screen](/assets/images/phone.png)
 <br><br>
 
 
@@ -38,14 +38,14 @@ In this section, you should go over the different parts of your project, and des
         <li> Gallery - gallery with pictures related to the course. </li>
 </ul>
  
-![Nav Bar](/assets/Images/navbar.png) 
+![Nav Bar](/assets/images/navbar.png) 
 
 - __Hero Image and Logo__
 
   - The landing includes Cooking Academy logo that is relevant for the business related to cooking and also some information about where its located and thats a school that has good chefs teaching.  
   - Catches the user attention due to the vibrant color that focus on a very vivid yellow. 
 
-![Landing Page](/assets/Images/covermain.png)
+![Landing Page](/assets/images/covermain.png)
 
 - __Main Section on First Page__
 
@@ -63,19 +63,19 @@ In this section, you should go over the different parts of your project, and des
   - The footer contains social feature that link the page to Instagram, Facebook, Twitter.
   - This will allow the users to follow Cooking Classes on social media to keep up to date with things that might not be on our website. 
 
-![Footer](assets/Images/footer.png)
+![Footer](assets/images/footer.png)
 
 - __Gallery__
 
   - This section contains pictures of dishes and people cooking to show a bit of what the experience can be because cooking is colorful and so much fun !!
 
-![Gallery](assets/Images/gallery.png)
+![Gallery](assets/images/gallery.png)
 
 - __The Sign Up Page__
 
   - This page will allow the user to get in touch with people from Cooking Academy and start the journey of learning how to cook. 
 
-![Sign Up](assets/Images/form.png)
+![Sign Up](assets/images/form.png)
 
 
 ### Features Left to Implement
