@@ -334,6 +334,10 @@ text {
     hr {
         display: none;
     }
+    #cover-text {
+        bottom: 20px;
+        right: 0;
+    }
 }
 @media screen and (max-width: 950px) {
     #menu {
