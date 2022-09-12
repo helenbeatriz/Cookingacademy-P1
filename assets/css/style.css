@@ -338,6 +338,9 @@ text {
         bottom: 20px;
         right: 0;
     }
+    #cover-text {
+        position: sticky;
+     }
 }
 @media screen and (max-width: 950px) {
     #menu {
