@@ -75,7 +75,7 @@ h2 {
 #background {
     height: 500px;
     width: 100%;
-    background: url(assets/Images/cover.webp) no-repeat center;
+    background: url(../images/cover.webp) no-repeat center;
     background-size: cover;
     /* effects for the background */
     animation-name: hero-zoom;
@@ -232,7 +232,7 @@ footer {
 /*form */
 form {
     clear: both;
-    background-image: url('assets/Images/chefplatingwithsmoke.png');
+    background-image: url('../images/chefplatingwithsmoke.png');
     background-size: cover;
     background-position: center;
     display: flex;
