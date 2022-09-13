@@ -306,7 +306,7 @@ text {
     font-size: large;
     color: #fff;
 }
-.homereturn a:hover {
+.homereturn:hover {
     color: #e27100;
 }
 /* Contact page textblock media query for mobile wider than 375px */
