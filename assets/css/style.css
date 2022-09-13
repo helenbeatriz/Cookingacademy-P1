@@ -79,7 +79,7 @@ h2 {
     background-size: cover;
     /* effects for the background */
     animation-name: hero-zoom;
-    animation-duration: 20s;
+    animation-duration: 10s;
     animation-fill-mode: forwards;
 }
 /* creates the level of zoom for hero image */
@@ -111,7 +111,6 @@ h2 {
 }
 .reasons {
     color: rgb(255, 255, 255);
-    padding: 4rem;
     text-align: center;
     display: flex;
     align-content: center;
@@ -122,10 +121,10 @@ h2 {
     max-width: 60%;
     background-color: rgba(0, 0, 0, 0.9);
     border: 2px solid rgb(255, 153, 0);
-    padding: 2rem;
     align-self: center;
     border-radius: 30%;
     font-size: 25px;
+    padding: 2rem;
 }
 .reasonsbig {
     font-weight: bold;
@@ -168,16 +167,9 @@ padding: 10px 15px;
     box-shadow: 0 5px rgb(162, 155, 155);
 }
 /*Teachers */
-.teamgreeting {
-    clear: both;
+.greeting {
     text-align: center;
-    font-size: large;  
-    color: #fff;
-    border: 2px solid #ec6a00;
-    width: 30%;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 10%;
+    clear: both;
 }
 .chef-1,
 .chef-2,
@@ -185,6 +177,8 @@ padding: 10px 15px;
 .chef-4 {
     display: inline-block;
     width: 33%;
+    align-items: center;
+    justify-content: center;
 }
 .chefs-image {
     clear: both;
@@ -195,6 +189,18 @@ padding: 10px 15px;
     background-color: rgb(0, 0, 0);
     padding: 10px;
     margin-top: 10%;
+}
+.flex-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.chef-profiles {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
 figcaption {
     display: inline-block;
@@ -281,6 +287,9 @@ text {
     height: 80%;
     margin-top: 20px;
 }
+.form {
+    margin: 0 auto;
+}
 /*images for gallery*/
 #photos {
     clear: both;
@@ -296,28 +305,29 @@ text {
 .error {
     text-align: center;
     clear: both;
-    padding-top: 20%;
+    padding-top: 10%;
+
 }
 .errorfour
 {
-    font-size: large;
+    font-size: 60px;
 }
 .homereturn {
     font-size: large;
     color: #fff;
-    text-decoration: none;
+    text-decoration: none; 
 }
 .homereturn:hover {
     color: #e27100;
+    text-decoration: underline;
 }
-/* Contact page textblock media query for mobile wider than 375px */
+/* Media queries */
 @media only screen and (max-width: 1064px) {
     .contact-form {
         display: flex;
         flex-direction: column;
     }
 .reasonscontent {
-    margin-top: 45%;
     min-width: 80vw;
     flex-direction: column;
 }
@@ -330,10 +340,11 @@ text {
     #photos {
         flex-direction: column;
         display: flex;
-        padding-bottom: 5px
+        padding-bottom: 5px;
+        align-items: center;
     }
 }
-@media (min-width:1000px) and (max-width: 1300px) {
+@media (min-width:1000px) and (max-width: 2000px) {
     #descriptionchef {
         display: flex;
         width: 65%;
@@ -357,9 +368,6 @@ text {
         bottom: 20px;
         right: 0;
     }
-    #cover-text {
-        position: sticky;
-     }
 }
 @media screen and (max-width: 950px) {
     #menu {
@@ -373,11 +381,13 @@ text {
            position: sticky;
         }
     }
-@media screen and (max-width: 670px) {
+    
+@media screen and (max-width: 770px) {
     #cover-text {
         bottom: 20px;
         right: 0;
-    }
+        position: sticky;
+     }
     .chef-1,
     .chef-2,
     .chef-3,
@@ -392,8 +402,6 @@ text {
 .reasons {
     min-width: 90vw;
     padding: 2%;
-    margin-top: 0;
-    padding: 10%;
     flex-direction: column;
 }
 .reasonscontent h2 {
@@ -406,7 +414,22 @@ text {
 .reasons button {
     max-width: 95vw;
 }
-.teamgreeting {
-    width: auto;
+#chefs {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
+
+}
+@media screen and (max-width: 500px) {
+#chefs {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
 }
