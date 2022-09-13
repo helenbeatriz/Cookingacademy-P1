@@ -296,7 +296,7 @@ text {
 .error {
     text-align: center;
     clear: both;
-    padding-top: 30%;
+    padding-top: 20%;
 }
 .errorfour
 {
@@ -305,6 +305,7 @@ text {
 .homereturn {
     font-size: large;
     color: #fff;
+    text-decoration: none;
 }
 .homereturn:hover {
     color: #e27100;
