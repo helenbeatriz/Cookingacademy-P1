@@ -291,6 +291,13 @@ text {
 #photos img {
     width: 80%;
 }
+
+/* 404 Page error */
+.error {
+    text-align: center;
+
+    clear: both;
+}
 /* Contact page textblock media query for mobile wider than 375px */
 @media only screen and (max-width: 1064px) {
     .contact-form {
