@@ -295,8 +295,11 @@ text {
 /* 404 Page error */
 .error {
     text-align: center;
-
     clear: both;
+}
+.errorfour
+{
+    font-size: large;
 }
 /* Contact page textblock media query for mobile wider than 375px */
 @media only screen and (max-width: 1064px) {
