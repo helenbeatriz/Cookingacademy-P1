@@ -344,7 +344,7 @@ text {
         align-items: center;
     }
 }
-@media (min-width:1000px) and (max-width: 2000px) {
+@media (min-width:1000px) and (max-width: 3000px) {
     #descriptionchef {
         display: flex;
         width: 65%;
