@@ -367,6 +367,8 @@ text {
     #cover-text {
         bottom: 20px;
         right: 0;
+        position: sticky;
+        
     }
 }
 @media screen and (max-width: 950px) {

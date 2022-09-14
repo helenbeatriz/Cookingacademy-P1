@@ -1,8 +1,9 @@
 # Cooking Academy 
 Cooking Academy is a website destined to a culinary school that facilitates user who have interest to get in touch with the company. 
+These classes are provided to anyone who is willing to learn, from very early age. 
 Providing information about teachers, pictures of dishes made through the course and etc.  
+View the live site [here](https://helenbeatriz.github.io/Cookingacademy-P1/)
 
-[(assets/Images/mocup.png)]
 ## Design
 
 ### Wireframes
@@ -17,12 +18,14 @@ Home page
 ![Home Page small screen](/assets/images/phone.png)
 <br><br>
 
+### Existing Features
+
+* Responsive design, gallery.
+* Interactive Icons.
+* Chefs that are the teachers information.
+* Submition/sign up form for doubts and questions related to the course.
 
 ## Features 
-
-In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
-
-### Existing Features
 
 - __Navigation Bar__
 
@@ -50,7 +53,7 @@ In this section, you should go over the different parts of your project, and des
 - __Main Section on First Page__
 
  - User sees some information about the page and how important cooking is even for daily tasks and also for recreative reasons to do it. 
-![Club Ethos](still need to format and take sc ) 
+![Reasons](assets/images/reasons.png) 
 
 - __Chefs section__
 
@@ -67,25 +70,33 @@ In this section, you should go over the different parts of your project, and des
 
 - __Gallery__
 
-  - This section contains pictures of dishes and people cooking to show a bit of what the experience can be because cooking is colorful and so much fun !!
+  - This section contains pictures of dishes and people cooking inside the academy allowing the user to have a bit of what the experience can be, what do expect while doing the course.
 
 ![Gallery](assets/images/gallery.png)
 
 - __The Sign Up Page__
 
+      A contact form will appear requiring those infos:
+        * First Name 
+        * Last Name 
+        * Email 
+        * Message 
+    * If sucessful user will get displayed a success message.
+    * This will allow user to contact our Cooking Academy.
   - This page will allow the user to get in touch with people from Cooking Academy and start the journey of learning how to cook. 
+  - When getting in touch with us somebody from the company would reply, clearing doubts and providing infos about the course.
 
 ![Sign Up](assets/images/form.png)
 
 
 ### Features Left to Implement
 
-- Another feature idea
+- Another feature idea.
 - User reviews and map on first page.
 
 ## Testing 
 - My website was taking very long time to load so I had to convert and compress all my photos in order to make it work. 
-- I wasn able to align my gallery pictures so I learnt how to sue display boxes and made it work on mobiles as well.
+- I wasn't able to align my gallery pictures so I learnt how to use display boxes and made it work on mobiles as well.
 - While creating and website and deploying I found out I Needesd to remove the "/" from my links cause it was causing an error while trying to open images through absolute paths. 
 
 ### Validator Testing 
@@ -98,6 +109,15 @@ In this section, you should go over the different parts of your project, and des
 
 
 ## Deployment
+
+This website was created using Gitpod.
+
+  - This website was deployed to GitHub pages. The steps to deploy are: 
+  - Inside Github repository navigate to the Settings tab 
+  - From the menu click on 'Pages'
+  - From the source section menu, click on the Branch: main
+  - Click 'Save'
+  - A live link appears on a green tag when published successfully. 
 
 The live link can be found here - https://helenbeatriz.github.io/Cookingacademy-P1/
 
