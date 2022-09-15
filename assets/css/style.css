@@ -170,6 +170,7 @@ padding: 10px 15px;
 .greeting {
     text-align: center;
     clear: both;
+    padding-top: 10px;
 }
 .chef-1,
 .chef-2,
