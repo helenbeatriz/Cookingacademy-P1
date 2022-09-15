@@ -167,10 +167,10 @@ padding: 10px 15px;
     box-shadow: 0 5px rgb(162, 155, 155);
 }
 /*Teachers */
-.greeting {
+.greeting h2 {
     text-align: center;
     clear: both;
-    padding-top: 10px;
+    padding-top: 20px;
 }
 .chef-1,
 .chef-2,
