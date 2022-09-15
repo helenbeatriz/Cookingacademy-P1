@@ -95,9 +95,14 @@ Home page
 - User reviews and map on first page.
 
 ## Testing 
+
+I tested the website on different sreen sizes and devices to ensure responsiveness. I tested on Large screen, laptop, iPad Mini, iPhone X, iPhone8, Xiaomi 9, and iPhone SE.
+
 - My website was taking very long time to load so I had to convert and compress all my photos in order to make it work. 
 - I wasn't able to align my gallery pictures so I learnt how to use display boxes and made it work on mobiles as well.
 - While creating and website and deploying I found out I Needesd to remove the "/" from my links cause it was causing an error while trying to open images through absolute paths. 
+- I had to resize all the images in order to achieve better responsiveness.
+- To achieve the required colour contrast, I used the tool Colour Contrast Checker.
 
 ### Validator Testing 
 
@@ -121,8 +126,10 @@ This website was created using Gitpod.
 
 The live link can be found here - https://helenbeatriz.github.io/Cookingacademy-P1/
 
+
 ## Credits 
 
+The Love Running Project was used as a reference through the project. 
 All the pictures/media are owned by Pexels.
 I did the whole website based on the things I learnt through the course, watching videos on Youtube and mixing then and creating my own. 
 
