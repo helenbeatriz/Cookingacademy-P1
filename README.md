@@ -1,4 +1,5 @@
 # Cooking Academy 
+![Mockup](/assets/images/mockup.png)
 Cooking Academy is a website destined to a culinary school that facilitates user who have interest to get in touch with the company. 
 These classes are provided to anyone who is willing to learn, from very early age. 
 Providing information about teachers, pictures of dishes made through the course and etc.  

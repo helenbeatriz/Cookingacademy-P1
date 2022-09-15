@@ -330,6 +330,7 @@ text {
 .reasonscontent {
     min-width: 80vw;
     flex-direction: column;
+    padding:10px;
 }
 .reasons button {
     min-width: 40%;
