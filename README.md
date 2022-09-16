@@ -108,10 +108,13 @@ I tested the website on different sreen sizes and devices to ensure responsivene
 ### Validator Testing 
 
 - HTML
-  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2F8000-helenbeatriz-p1htmlcss-z79k9ftjie2.ws-eu64.gitpod.io%2F) 
+  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fhelenbeatriz.github.io%2FCookingacademy-P1%2F) 
+  ![HTML-Validator](assets/images/htmlvalidator.png)
+  
 - CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2F8000-helenbeatriz-p1htmlcss-z79k9ftjie2.ws-eu64.gitpod.io%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fhelenbeatriz.github.io%2FCookingacademy-P1%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
   - Also got good scores on lightroom. 
+  ![CSS-validator](assets/images/cssvalidator.png)
 
 
 ## Deployment
