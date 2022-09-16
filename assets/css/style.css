@@ -21,6 +21,7 @@ h2 {
     text-transform: uppercase;
     letter-spacing: 2px;
     color: white;
+    text-align: center;
 }
 #logo {
     float: left;
@@ -156,7 +157,7 @@ h2 {
     text-transform: capitalize;
 }
 .signupbutton:hover {
-padding: 10px 15px;
+    padding: 10px 15px;
     font-size: 20px;
     text-align: center;
     cursor: pointer;
@@ -167,7 +168,7 @@ padding: 10px 15px;
     box-shadow: 0 5px rgb(162, 155, 155);
 }
 /*Teachers */
-.greeting h2 {
+.greeting h2{
     text-align: center;
     clear: both;
     padding-top: 20px;
@@ -180,6 +181,7 @@ padding: 10px 15px;
     width: 33%;
     align-items: center;
     justify-content: center;
+    text-align: center;
 }
 .chefs-image {
     clear: both;
